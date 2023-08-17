@@ -1,6 +1,7 @@
 
 ## Data Processing - Handling Missing Values
 
+
 ### The first question arises after looking into Handling Missing Values that why is it important to handle it?
 
 There are two reasons behind it :
@@ -17,6 +18,7 @@ Lets say Your stakeholders asked you to calculate Average Income of all the 100 
 
 Now if you compare the Average values of Case 1 to Average value of Case 2, Average value of Case 2 is much more smaller than the Case 1 so if you present your analysis infront of stakeholders, it will be quite misguiding. So in order to avoid such mistakes, it's important to handle missing values.
 
+
 ### There are several ways a missing value can be represented : 
 * Blanks/Null Values
 * Spaces
@@ -26,7 +28,15 @@ Now if you compare the Average values of Case 1 to Average value of Case 2, Aver
 
 There can be N no. of possibilities, how a Missing value can be represented.
 
+
 ### How can you identify missing values in the dataset?
 
+* First you need to ask your Data Engineering Team/Data collection team that how is the missing values represented.
+* If its represented in the form of Blank/Null Values, You can apply filter to the dataset and check the drop down of the filter to identify whether you have any blank cell in any of the columns.
+* You can use COUNTA function to calculate the total no. of filled up cells and then your can calculate the difference between the total no. of cells & the filled up cells in order to get the missing values.
+* If it is represented in the form of ten 9's or nine 8's, it will be quite easily be identified using filters.
+
+
+### How to deal with missing values?
   
   
