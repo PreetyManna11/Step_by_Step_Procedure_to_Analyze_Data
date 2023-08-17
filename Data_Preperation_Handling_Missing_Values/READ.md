@@ -61,7 +61,7 @@ I have completed my graduation from SRM, Chennai and now I am working as a Softw
 
 
 #### 🛠 Tools required for Analyzing the Data using the framework
-MS Excel
+MS Excel, Google Spreadsheet
 
 
 ## 🔗 Links
