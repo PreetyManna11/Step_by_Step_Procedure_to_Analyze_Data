@@ -38,5 +38,7 @@ There can be N no. of possibilities, how a Missing value can be represented.
 
 
 ### How to deal with missing values?
+
+1. Suppose you have a case where you are dealing with data having millions of rows and you have 4-5 missing values and you are not using any machine learning models, in this case you can simply leave as missing values as it is since there are millions of rows and with 4-5 missing values it wont create huge impact.
   
   
