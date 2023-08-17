@@ -21,7 +21,7 @@ Data Processing Involves several steps :
 
 Step 6: Data Analysis
 
-There are 3 types of Analysis we can perform :
+There are 3 types of Data Analysis we can perform :
 * Univariate Analysis
 * Bivariate Analysis
 * Multivariate Analysis 
