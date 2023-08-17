@@ -8,7 +8,7 @@ Step 3: Validating your Assumptions
 
 Step 4: Data Acquisation
 
-Acquiring Data from different 
+Acquiring Data from different from different sources.
 
 Step 5: Data Preperation/Data Processing
 
