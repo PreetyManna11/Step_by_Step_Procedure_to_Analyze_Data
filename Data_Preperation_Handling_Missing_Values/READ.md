@@ -11,7 +11,8 @@ Lets say Your stakeholders asked you to calculate Average Income of all the 100 
 1. Due to some reason they were not able to collect the data.
 2. The customers with missing values income is 0. Let's consider 2 cases :
    
-   Case 1 : Now in this case suppose if you directly delete these 5 missing values data, in that case you calculate the Average of 95 customer's income.</br>
+   Case 1 : Now in this case suppose if you directly delete these 5 missing values data, in that case you calculate the Average of 95 customer's income.
+   
    Case 2 : Now a consider a case where you replace the missing values with 0 and then calculate the Average of 100 customers.
 
 Now if you compare the Average values of Case 1 to Average value of Case 2, Average value of Case 2 is much more smaller than the Case 1 so if you present your analysis infront of stakeholders, it will be quite mis-guiding. So in order to avoid such mistakes, it's important to handle missing values.
