@@ -8,11 +8,11 @@ Step 3: Validating your Assumptions
 
 Step 4: Data Acquisation
 
-Acquiring Data from different 
+* Acquiring Data from different 
 
 Step 5: Data Preperation/Data Processing
 
-Data Processing Involves several steps :
+* Data Processing Involves several steps :
 1. Merging two or more dataset.
 2. Validating the data type of all the columns
 3. Handling Missing Values
@@ -21,7 +21,7 @@ Data Processing Involves several steps :
 
 Step 6: Data Analysis
 
-There are 3 types of Analysis we can perform:
+* There are 3 types of Analysis we can perform:
 1. Univariate Analysis
 2. Bivariate Analysis
 3. Multivariate Analysis 
@@ -30,7 +30,7 @@ Step 7: Insight Collection
 
 Step 8: Story Telling
 
-Format for story telling should be:
+* Format for story telling should be:
 
 1. Business Problem/Catchy headline
 2. Solution
