@@ -7,8 +7,7 @@ Step 2: Converting a Business Problem into Data Analytics Term
 Step 3: Validating your Assumptions
 
 Step 4: Data Acquisation
-</br> 
-Acquiring Data from different 
+</br>Acquiring Data from different 
 
 Step 5: Data Preperation/Data Processing
 
