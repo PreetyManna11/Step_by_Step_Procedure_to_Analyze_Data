@@ -3,4 +3,25 @@
 
 The first question arises after looking into Handling Missing Values that why is it important to handle it?
 
-There are two reasons 
+There are two reasons behind it :
+* Suppose if you are working with some Machine Learning Model, you need to handle missing values properly as it won't work until and unles you provide a complete dataset.
+* Let consider from Analysis POV:
+Lets say Your stakeholders asked you to calculate Average Income of all the 100 Customers from the given dataset and you have 5 missing values in your dataset in the income column so you went back to the Data Engineering Team/Data collection Team to enquire regarding the missing values and lets consider 2 scenerios regarding what Data Engineering Team/Data collection Team have informed you :
+
+1. Due to some reason they were not able to collect the data.
+2. The customers with missing values income is 0. Let's consider 2 cases :
+   
+   Case 1 : Now in this case suppose if you directly delete these 5 missing values data, in that case you calculate the Average of 95 customer's income.
+   Case 2 : Now a consider a case where you replace the missing values with 0 and then calculate the Average of 100 customers.
+
+Now if you compare the Average values of Case 1 to Average value of Case 2, Average value of Case 2 is much more smaller than the Case 1 so if you present your analysis infront of stakeholders, it will be quite mis-guiding. So in order to avoid such mistakes, it's important to handle missing values.
+
+There are several ways a missing value can be represented : 
+* Blanks/Null Values
+* Spaces
+* Random Value
+* Big Value
+* Special Character
+
+  There can be N no. of possibilities, how a Missing value can be represented.
+  
