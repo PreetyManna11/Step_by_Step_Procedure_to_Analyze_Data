@@ -2,7 +2,7 @@
 
 ### What is Outliers?
 
-Outliers are nothing but who is different from the rest of the community.
+Outliers are nothing but which is different from the rest of the community.
 
 ### Why is it important to handle outliers in your dataset?
 
