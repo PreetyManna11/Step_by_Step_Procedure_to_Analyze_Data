@@ -48,10 +48,9 @@ T.B.C.
 
 
 
-### Author
+### Source
 
-- [@PreetyManna11](https://github.com/PreetyManna11)
-
+- Coding Ninjas
 
 #### Hi, I'm Preety! 👋
 
