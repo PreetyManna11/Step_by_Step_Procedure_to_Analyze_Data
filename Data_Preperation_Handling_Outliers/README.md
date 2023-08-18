@@ -8,7 +8,7 @@ Outliers are nothing but who is different from the rest of the community.
 
 Lets suppose you have a dataset with Name and Income column as shown below
 
-Name    |  Income
+Name    |  Income</br>
 A       |   10000
 B       |   1000
 Gates   |   400000000
