@@ -10,7 +10,7 @@ Lets suppose you have a dataset with Name and Income column as shown below
 
 Name    |  Income
 
-A       |   10000
+A  </t>     |   10000
 
 B       |   1000
 
