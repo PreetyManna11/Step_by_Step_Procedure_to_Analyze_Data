@@ -37,11 +37,8 @@ Format for story telling should be:
 * Executive Summary
 * Annexure/Detailed Analysis
 
-
-### Author
-
-- [@PreetyManna11](https://github.com/PreetyManna11)
-
+### Source 
+- Coding Ninjas
 
 #### Hi, I'm Preety! 👋
 
