@@ -35,6 +35,11 @@ Case 2 : if the outlier is not a measurement error and a viable value in that ca
 
 ### How to identify an outlier?
 
+To identify an outlier you need to create box plot of a particular column. In order to make a box plot of a particular column, we need to have atleats 4 statistical summary. Here we will be using Quartile function in order to calculate our statistical summary.
+
+
+T.B.C
+
 
 
 
