@@ -8,21 +8,13 @@ Outliers are nothing but who is different from the rest of the community.
 
 Lets suppose you have a dataset with Name and Income column as shown below
 
-Name    |  Income
-
-A  </t>     |   10000
-
-B       |   1000
-
-Gates   |   400000000
-
-X       |   5000
-
-Y       |   4000
-
 Name | Income |
 --- | --- |
-A | 1000 |
+A | 10000 |
+B | 1000 |
+Gates | 400000000 |
+X | 5000 |
+Y | 4000 |
 
 Among all the customers whose income lies from $1000 - $10000, Gates is the outlier.
 
