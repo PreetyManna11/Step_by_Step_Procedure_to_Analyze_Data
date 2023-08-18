@@ -20,6 +20,10 @@ X       |   5000
 
 Y       |   4000
 
+Name | Income |
+--- | --- |
+A | 1000 |
+
 Among all the customers whose income lies from $1000 - $10000, Gates is the outlier.
 
 Now Your stakeholder asked you to Calculate average Income of the customers, now if you calculate the average including the outlier, the average will be too high and it will mislead our stakeholders regarding the income of the customer as it will indicate that all the customers income is high. So in order to avoid this problem, we can follow the below cases :
