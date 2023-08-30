@@ -34,7 +34,7 @@ Now if you compare the Average values of Case 1 to Average value of Case 2, Aver
 * Special Character
 
 There can be N no. of possibilities, how a Missing value can be represented.
-
+It is really important for a data analyst to understand how a missing values can be represented. In order to know how your missing value is represented you need to go back to your Data Eng Team/Data Collection Team.
 
 ### How can you identify missing values in the dataset?
 
@@ -46,11 +46,16 @@ There can be N no. of possibilities, how a Missing value can be represented.
 
 ### How to deal with missing values?
 
-1. Suppose you have a case where you are dealing with data having millions of rows and you have 4-5 missing values and you are not using any machine learning models, in this case you can simply leave as missing values as it is since there are millions of rows and with 4-5 missing values it wont create huge impact.
+1. Suppose you have a case where you are dealing with data having millions of rows and you have 4-5 missing values and you are not using any machine learning models, in this case you can simply leave as missing values as it is since there are millions of rows and with 4-5 missing values it wont create huge impact on your Analysis.
+2. Suppose you have millions of rows and 1-2 values are missing in this case you can delete the rows. But suppose you have 1000's of rows and 100's of rows having missing values so in this case you cannot delete the rows as if you delete it, other rows which were having some values will also get impacted and significant amount of data will get deleted and will later on impact your analysis and decision making of the stakeholders. So if your dataset is small and you have significant amount of missing values, probably 2% to 3%, its better not to delete.
+3. The third case can be by using data imputation.
 
+   What does an imputation mean?
+   It means you can impute a value or add a value.
 
-T.B.C.
-
+   Now there are several ways you can do imputation:
+   1. Whenever you see nulls you can fill up with 0.
+   2. If you have a categorical column having string type of data, whichever will have a mximum amount of a particular text, you can replace it with that using MODE function.
 
 
 
