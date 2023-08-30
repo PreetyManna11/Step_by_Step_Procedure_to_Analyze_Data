@@ -56,6 +56,7 @@ Q1       -> 25% (percentile) * (Total Count of Data) -> 3rd value
 Q2/median-> 50% (percentile) * (Total Count of Data) -> 6th value
 Q3       -> 75% (percentile) * (Total Count of Data) -> 9th value
 Q4/Qmax  -> $112 100% (percentile) * (Total Count of Data)
+IQR      -> Q3-Q1 (Inter Quartile Range)
 
 
 In Excel, you simply need to calculate the Quartile value by using QUARTILE(array,quart) function by selecting the whole columns in place of array and providing what value of quartle you want from 1-4. This is how you find the value of all the quartiles in excel.
@@ -65,6 +66,16 @@ Now after you find out the quartile values
 Numeric Column Name | Qmin | Q1  | Q2  | Q3  | Q4
 
 Now you need to select all the above values as mentioned and insert a box plot.
+
+In the picture below
+
+Qmin -> Represented as a value 3 which usually is an outlier if its too distant from the box
+Q1   -> Represented as a value 5.25
+Q2   -> Represented as a value 15
+Q3   -> Represented as a value 23.75
+Q4   -> Represented as a value 29 which usuallly is an outlier if its too distant from the box
+
+So this is how you identify whether an outlier is there or not
 
 ![image](https://github.com/PreetyManna11/Step_by_Step_Procedure_to_Analyze_Data/assets/61684282/7880896f-f294-4cc5-a90e-32fdb5681915)
 
