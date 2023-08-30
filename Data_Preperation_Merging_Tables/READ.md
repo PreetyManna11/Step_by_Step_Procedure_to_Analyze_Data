@@ -3,7 +3,12 @@
 Here we will understand the VLOOKUP function in Google Spreadsheet
 
 
+=VLOOKUP(search_key, Range, index, is_sorted)
 
+where search_key is key identifier
+Range is the table range
+index is the selected columns
+is_sorted is whether you wanted to sort your data or not
 
 
 
