@@ -38,9 +38,35 @@ Case 1 : the outlier is a measurement error or not, if they say its a measuremen
 Case 2 : if the outlier is not a measurement error and a viable value in that case we need to go back to the business problem and check what has been asked for? And accordingly we need to handle. If they have asked to caculate income then Probably show 2 cases as discussed above.
 
 
-### How to identify an outlier?
+### How to identify an outliers In MS excel?
 
 To identify an outlier you need to create box plot of a particular column. In order to make a box plot of a particular column, we need to have atleats 4 statistical summary. Here we will be using Quartile function in order to calculate our statistical summary.
+
+Suppose you have few data for Amount spent by customer :
+
+$2, $10, $18, $12, $3, $7, $100, $42, $27, $58, $112, $62
+
+Now you need to arrange the data in ascending order to find out Quartile :
+
+$2, $3, $7, $10, $12, $18, $27, $42, $58, $62, $100, $112
+Qmin     Q1            Q2             Q3              Qmax
+
+Qmin     -> $2
+Q1       -> 25% (percentile) * (Total Count of Data) -> 3rd value
+Q2/median-> 50% (percentile) * (Total Count of Data) -> 6th value
+Q3       -> 75% (percentile) * (Total Count of Data) -> 9th value
+Q4/Qmax  -> $112 100% (percentile) * (Total Count of Data)
+
+
+In Excel, you simply need to calculate the Quartile value by using QUARTILE(array,quart) function by selecting the whole columns in place of array and providing what value of quartle you want from 1-4. This is how you find the value of all the quartiles in excel.
+
+Now after you find out the quartile values 
+
+Numeric Column Name | Qmin | Q1  | Q2  | Q3  | Q4
+
+Now you need to select all the above values as mentioned and insert a box plot.
+
+![image](https://github.com/PreetyManna11/Step_by_Step_Procedure_to_Analyze_Data/assets/61684282/7880896f-f294-4cc5-a90e-32fdb5681915)
 
 
 T.B.C
