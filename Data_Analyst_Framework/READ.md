@@ -15,6 +15,7 @@ Data preparation is the process of cleaning and transforming raw data prior to p
 Data Processing means a process to convert data into information.
 
 Data Processing Involves several steps :
+* Apply fomatting on Dataset
 * Merging two or more dataset.
 * Validating the data type of all the columns
 * Handling Missing Values
