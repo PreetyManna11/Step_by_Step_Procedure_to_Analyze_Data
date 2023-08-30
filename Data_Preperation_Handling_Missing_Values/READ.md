@@ -1,8 +1,9 @@
 
 ## Data Processing - Handling Missing Values
 
+Handling missing values cannot be very evident whether your analysis will have a direct impact or not but the impact is a bit subtle but that subtle impact itself can change your analysis.
 
-### The first question arises after looking into Handling Missing Values that why is it important to handle it?
+### The first question arises after looking into Handling Missing Values is that why is it important to handle it?
 
 There are two reasons behind it :
 * Suppose if you are working with some Machine Learning Model, you need to handle missing values properly as it won't work until and unles you provide a complete dataset.
