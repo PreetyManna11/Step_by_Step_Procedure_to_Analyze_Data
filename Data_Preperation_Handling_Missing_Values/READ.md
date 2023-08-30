@@ -1,9 +1,15 @@
 
 ## Data Processing - Handling Missing Values
 
-Handling missing values cannot be very evident whether your analysis will have a direct impact or not but the impact is a bit subtle but that subtle impact itself can change your analysis.
+Handling missing values is one of the most important steps in Data Analysis Framework. It cannot be very evident whether your analysis will have a direct impact or not but the impact is a bit subtle but that subtle impact itself can change your analysis.
 
-### The first question arises after looking into Handling Missing Values is that why is it important to handle it?
+Here we are going to discuss about below questions :
+1. Why is it important to handle missing values?
+2. How a missing value is represented?
+3. How to identify missing values?
+4. How to handle missing values?
+   
+### Why is it important to handle missing values?
 
 There are two reasons behind it :
 * Suppose if you are working with some Machine Learning Model, you need to handle missing values properly as it won't work until and unles you provide a complete dataset.
