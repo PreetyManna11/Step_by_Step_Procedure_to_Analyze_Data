@@ -86,8 +86,17 @@ Now This way we can get some idea whether we have any outlier present or not usi
 
 Now Lets Analytically calculate that each of the value present in the dataset is an outlier or not.
 
+Find out :
 
+Qmin, Q1, Q2, Q3, Q4, IQR
 
+Lets suppose V is the value and if 
+V > Q3 + 1.5*IQR   -> indicates the value above Q3
+V < Q1 - 1.5*IQR   -> indicates the value below Q1
+
+If any one of the above criteria satisfies then the value is declared as Outlier
+
+In Excel, we simply create a column to check outlier and use =IF(OR(V > Q3 + 1.5*IQR , V < Q1 - 1.5*IQR),1,0). This means if any of the condition mentioned above satisfies then it will give an output as 1 or else 0.
 
 
 
