@@ -11,9 +11,9 @@ In Plain English Statement, Outliers are nothing but which is different from the
 
 ### Why is it important to handle outliers in your dataset?
 
-Lets suppose you have a dataset with Name and Income column as shown below
+Lets suppose you have a dataset with Customer Name and Income column as shown below
 
-Name | Income |
+Customer Name | Income |
 --- | --- |
 A | 10000 |
 B | 1000 |
