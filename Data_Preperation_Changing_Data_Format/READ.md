@@ -12,13 +12,13 @@ You can also use TYPE Function in order to know what the format of a cell is.
 
 Now a type function will usually return a numeric value which indicate a specific data type :
 
-1 indicates Numeric
-2 indicates Text
-4 indicates Boolean
-16 indicates Error
-64 indicates Array
+- 1 indicates Numeric
+- 2 indicates Text
+- 4 indicates Boolean
+- 16 indicates Error
+- 64 indicates Array
 
-Note : Excel indicates Date as a Number
+Note : Google Spreadsheet indicates Date as a Number
 
 
 
