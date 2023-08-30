@@ -7,7 +7,7 @@ Handling Outliers is quite important while you Prepare your data. There are few 
 
 ### What is Outliers?
 
-Outliers are nothing but which is different from the rest of the community.
+In Plain English Statement, Outliers are nothing but which is different from the rest of the community.
 
 ### Why is it important to handle outliers in your dataset?
 
