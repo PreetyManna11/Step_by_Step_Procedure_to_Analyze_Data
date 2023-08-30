@@ -10,7 +10,9 @@ Step 4: Data Acquisation
 
 Acquiring Data from different from different sources.
 
-Step 5: Data Preperation/Data Processing
+Step 5: Data Preperation/Data Processing/Data Cleaning
+Data preparation is the process of cleaning and transforming raw data prior to processing and analysis. It is an important step prior to processing and often involves reformatting data, making corrections to data, and combining datasets to enrich data.
+Data Processing means a process to convert data into information.
 
 Data Processing Involves several steps :
 * Merging two or more dataset.
