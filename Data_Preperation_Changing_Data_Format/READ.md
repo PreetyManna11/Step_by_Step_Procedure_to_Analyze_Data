@@ -1,7 +1,7 @@
 ## Data Preperation - Changing Data Format
 
 After Merging the dataset using VLOOKUP function, our next steps is to understand whether our data is in correct format or not.
-It is important to make the columns into the right format as suppose your stakeholders has asked you what is the total annual income of all the customers?
+It is important to make the columns into the right format, Suppose your stakeholders has asked you what is the total annual income of all the customers?
 Now imagine if the income column is in text format. In this case, you wont be able to calculate the annual income. You need to change the format in the form of Number.
 
 In order to change the format in Google Spreadsheet -> go to format -> Number -> Automatic 
