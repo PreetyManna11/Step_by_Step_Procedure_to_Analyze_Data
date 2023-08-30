@@ -34,7 +34,7 @@ Now if you compare the Average values of Case 1 to Average value of Case 2, Aver
 * Special Character
 
 There can be N no. of possibilities, how a Missing value can be represented.
-It is really important for a data analyst to understand how a missing values can be represented. In order to know how your missing value is represented you need to go back to your Data Eng Team/Data Collection Team.
+It is really important for a data analyst to understand how a missing values can be represented. In order to know how your missing value is represented or what does the missing value means, you need to go back to your Data Eng Team/Data Collection Team.
 
 ### How can you identify missing values in the dataset?
 
@@ -56,6 +56,9 @@ It is really important for a data analyst to understand how a missing values can
    Now there are several ways you can do imputation:
    1. Whenever you see nulls you can fill up with 0.
    2. If you have a categorical column having string type of data, whichever will have a mximum amount of a particular text, you can replace it with that using MODE function.
+
+   Now for numerical column its not that easy that you replace it with zero for thta you need to go back to data engg. team and aks what does the missing value means and ask them whether they had an income or not. If they say they dont have an income in that case its safe to say that you can put 0. But in case where they have an income you need to impute it with either Average/Median.
+   - In this case, you first need to calculate Standard Deviation, Average & Median. Now if you see your standard deviation value is a lot lesser than your Average, you can impute the values with average but if your standard deviation is around, equal to or more than average then impute the values with median. So the method we are following here is based upon the principles of Normal Distribution.
 
 
 
