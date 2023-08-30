@@ -35,7 +35,7 @@ Once you are aware that a value is an outlier, you can quickly go back to data e
 
 Case 1 : the outlier is a measurement error or not, if they say its a measurement error you need to delete that particular row.
 
-Case 2 : if the outlier is not a measurement error and a viable value in that case we need to go back to the business problem and check what has been asked for?
+Case 2 : if the outlier is not a measurement error and a viable value in that case we need to go back to the business problem and check what has been asked for? And accordingly we need to handle. If they have asked to caculate income then Probably show 2 cases as discussed above.
 
 
 ### How to identify an outlier?
