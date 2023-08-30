@@ -6,8 +6,7 @@ Now imagine if the income column is in text format. In this case, you wont be ab
 
 In order to change the format in Google Spreadsheet -> go to format -> Number -> Automatic 
 
-Automatic -> Usually Google spreadsheet determine the column format properly
-But sometimes it can happen that it wont be able to detect the format properly and in that case you can change the format from above process and make it a Number
+Automatic -> Usually Google spreadsheet determine the column format properly but sometimes it can happen that it wont be able to detect the format properly and in that case you can change the format from above process and make it a Number
 
 You can also use TYPE Function in order to know what the format of a cell is.
 
