@@ -30,7 +30,7 @@ Now if you compare the Average values of Case 1 to Average value of Case 2, Aver
 * Blanks/Null Values
 * Spaces
 * Random Value
-* Big Value
+* Big Value - Can be represnted in the form of outliers like 7 9's or 10 11's
 * Special Character
 
 There can be N no. of possibilities, how a Missing value can be represented.
