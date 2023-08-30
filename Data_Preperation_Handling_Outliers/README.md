@@ -1,5 +1,10 @@
 ## Outliers
 
+Handling Outliers is quite important while you Prepare your data. There are few questions which are worth asking while handling outliers:
+1. What is outlier?
+2. Why is it important to handle outlier?
+3. How to handle outlier?
+
 ### What is Outliers?
 
 Outliers are nothing but which is different from the rest of the community.
