@@ -1,6 +1,6 @@
 ## Data Preperation - Merging Tables
 
-Here we will understand the VLOOKUP function in Google Spreadsheet
+Here we will understand the VLOOKUP function in Google Spreadsheet to merge two tables together
 
 
 =VLOOKUP(search_key, Range, index, is_sorted)
