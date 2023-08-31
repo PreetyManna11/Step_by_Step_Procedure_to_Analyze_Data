@@ -5,6 +5,9 @@ Here we will understand the VLOOKUP function in Google Spreadsheet
 
 =VLOOKUP(search_key, Range, index, is_sorted)
 
+![Screenshot 2023-08-31 081724](https://github.com/PreetyManna11/Step_by_Step_Procedure_to_Analyze_Data/assets/61684282/23369e9f-b8f3-4d82-94f0-6fe51b0930a9)
+
+
 1. The search_key represents the unique identifier or key-value you want to look up. It can either be a value or a reference to a cell containing the value.
 2. The range is the range of cells (in the source table) within which the VLOOKUP function should search.
 3. The index is the column number within the range from which the corresponding value (the one in the same row as Search key) should be retrieved.
