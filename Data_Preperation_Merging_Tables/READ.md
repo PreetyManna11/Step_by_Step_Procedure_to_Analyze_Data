@@ -5,22 +5,24 @@ Here we will understand the VLOOKUP function in Google Spreadsheet
 
 =VLOOKUP(search_key, Range, index, is_sorted)
 
-1. The <b>search_key</b> represents the unique identifier or key-value you want to look up. It can either be a value or a reference to a cell containing the value.
-2. The <b>range</b> is the range of cells (in the source table) within which the VLOOKUP function should search.
-3. The <b>index</b> is the column number within the range from which the corresponding value (the one in the same row as Search key) should be retrieved.
-4. <b>is_sorted</b> is an optional parameter. It can either be TRUE or FALSE.
+1. The search_key represents the unique identifier or key-value you want to look up. It can either be a value or a reference to a cell containing the value.
+2. The range is the range of cells (in the source table) within which the VLOOKUP function should search.
+3. The index is the column number within the range from which the corresponding value (the one in the same row as Search key) should be retrieved.
+4. is_sorted is an optional parameter. It can either be TRUE or FALSE.
+   * A FALSE value for “is_sorted” indicates that the first column of range does not need to be sorted in ascending order. So, the VLOOKUP function searches for an exact match of the “search_key”.
+    * If there is more than one value equal to “search_key”, then VLOOKUP accesses the first occurrence of the “search_key”.
 
 When you use VLOOKUP function to merge two tables together, there might be several scenerios as follows:
 
-Case 1 : Suppose both the tables are in different workbook
+- Case 1 : Suppose both the tables are in different workbook
 
 Formula: =VLOOKUP(search_key,Importrange(“{sheetsURL}”, “{sheetname}!{cellrange}”), index,is_sorted)
 
-Case 2 : Suppose both the tables are in same workbook but different sheet
+- Case 2 : Suppose both the tables are in same workbook but different sheet
 
 Formula: =VLOOKUP(lookup_value, ‘Sheet2’!cell range, 2, False)
 
-Case 3 : Suppose both the tables are in same workbook and same sheet
+- Case 3 : Suppose both the tables are in same workbook and same sheet
 
 Formula: =VLOOKUP(lookup_value, cell range, 2, False)
 
